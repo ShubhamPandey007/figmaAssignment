@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    display: block;
+    margin: 25px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    font-size: 24px;
+    color: #000;
+    display: block;
+    padding: 35px;
+    
+}
+.list a:hover{
+    color: red;
+}
+
+.herosection{
+    background-image: url(./image/Rectangle\ 48.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+    padding: 75px 50px 140px;
+
+}
+.uppersection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.uppersection h1{
+   max-width: 925px;
+font-weight: 700;
+font-size: 58px;
+line-height: 80px;
+
+text-align: center;
+letter-spacing: 0.2px;
+
+}
+.uppersection p{
+    font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+padding: 27px 0 50px;
+letter-spacing: 0.2px;
+
+}
+.uppersection button{
+    width: 230px;
+    height: 68px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1px;
+border: none;
+cursor: pointer;
+color: white;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    
+}
+.herosection .imgWrapper{
+    position: absolute;
+  top: 300px;
+
+}
+.homework{
+   
+    margin-top: 600px;
+text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    
+    letter-spacing: 0.1px;
+    
+}
+.section2{
+  display: flex;
+  justify-content: center;
+}
+.textcontent{
+    margin-top: 250px;
+}
+.textcontent h3{
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.1px;
+color: #FA4A0C;
+}
+.textcontent h2{
+    font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+letter-spacing: 0.2px;
+color: #252B42;
+margin-top: 17px;
+}
+.textcontent p{
+    font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: 0.2px;
+color: #737373;
+margin-top: 27px;
+}
+.section3{
+    display: flex;
+    justify-content: center;
+    
+}
+.section4{
+    display: flex;
+    justify-content: center;
+    
+}
+/* section5 */
+.section5dwn{
+    background-image: url(./image/Rectanglebotm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    position: relative;
+    padding: 120px 200px 150px;
+    color: white;
+}
+.section5dwn h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+
+}
+.section5dwn h4{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #FFFFFF;
+}
+.section5dwn button{
+    padding: 18px 31px;
+gap: 10px;
+width: 142px;
+height: 64px;
+background: #FA4A0C;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+color: white;
+font-size: 15px;
+
+}
+.btndownlod{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    
+}
+/* footer */
+.footer{
+    padding: 53px 115px;
+    display: flex;
+    align-items: center;
+    column-gap: 200px;
+    justify-content: space-around;
+}
+.footer .footerImg{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+    cursor: pointer;
+}
+.footerImg img:hover{
+   color: #FA4A0C;
+}
+
+    
+    
